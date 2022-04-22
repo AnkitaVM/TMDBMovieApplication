@@ -1,10 +1,7 @@
 package com.example.tmdbmovieapplication
 
 import android.app.Application
-import androidx.room.Room
 import com.example.tmdbmovieapplication.dagger.*
-import com.example.tmdbmovieapplication.room.MovieDatabase
-import dagger.internal.DaggerGenerated
 
 class TMDBMovieApplication : Application() {
 
